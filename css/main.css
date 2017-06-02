@@ -42,7 +42,7 @@ header{
 	margin-left: 5vw;
 	font-size: 10vh;
 	font-family: sans-serif;
-	color: white;	
+	color: white;
 }
 #we{
 	margin-left: 6vw;
@@ -71,9 +71,43 @@ header{
 	font-family: sans-serif;
 
 }
+.book{
+	background-color: black;
+	width: 100vw;
+	height: 56vh;
+	opacity: 0.9;
+	margin-top: 15vh;
+	display: flex;
+	flex-direction: column;
+}
+#bookhere{
+	margin-left: 44vw;
+	color:white;
+	font-family: sans-serif;
+}
+.writing{
+	margin-left: 44vw;
+	margin-top: 7.5vh;
+	width: 10vw;
+	height: 3.5vh;
+
+}
+#hello{
+	margin-top: 7.5vh;
+	margin-left: 44vw;
+	width: 10vw;
+	background-color: black;
+	font-size: 3vh;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
 .links{
 	justify-content: center;
-	margin-top: 56vh;
+	margin-top: 15vh;
 	width: 50vw;
 	height:15vh;
 	background-color:white;
@@ -90,6 +124,15 @@ header{
 	font-size: 20px;
 	font-family: sans-serif;
 }
+#hello:hover, #hello:active {
+	background-color: white;
+	color: black;
+	transition: 0.25s;
+	border-style: solid;
+	border-width: 1px;
+
+}
+
 }
 @media screen 
   and (device-width: 360px) 
@@ -143,7 +186,7 @@ header{
 	color: white;	
 }
 .sblock{
-	margin-top: 25vh;
+	margin-top: 50vh;
 	width: 100vw;
 	height: 55vh;
 	background-color: white;
@@ -151,7 +194,6 @@ header{
 	opacity: 0.8;
 	display: flex;
 	flex-direction: column;
-	z-index: -1
 }
 #about{
 	margin-left: 4vw;
@@ -164,6 +206,41 @@ header{
 	font-family: sans-serif;
 
 }
+.book{
+	background-color: black;
+	width: 100vw;
+	height: 56vh;
+	opacity: 0.9;
+	margin-top: 30vh;
+	display: flex;
+	flex-direction: column;
+}
+#bookhere{
+	margin-left: 30vw;
+	color:white;
+	font-family: sans-serif;
+}
+.writing{
+	margin-left: 35vw;
+	margin-top: 7.5vh;
+	width: 30vw;
+	height: 3.5vh;
+
+}
+#hello{
+	margin-top: 7.5vh;
+	margin-left: 37.5vw;
+	width: 25vw;
+	background-color: black;
+	font-size: 3vh;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+
 .links{
 	justify-content: center;
 	margin-top: 56vh;
@@ -171,7 +248,7 @@ header{
 	height:25vh;
 	background-color:white;
 	box-shadow: 0px 1px 5px 0px #1c2024;
-	opacity:0.75;
+	opacity: 0.75;
 }
 #meowtiful{
 	font-family: sans-serif;
@@ -182,5 +259,130 @@ header{
 	font-size: 20px;
 	font-family: sans-serif;
 }
+}
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 
+body{
+	margin: 0;
+	background-image: url("../img/mobile_cat.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	justify-content: center;
+	height: 200vh;
+	width: 100vw;
+}
+header{
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 9.5vh;
+	background-color: #3f3939;
+	box-shadow: 0px 1px 5px 0px #1c2024;
+	z-index: 1; 
+}
+#cc{
+	margin-left: 34.5vw;
+	font-family: sans-serif;
+	color: white;
+}
+.spacebetween{
+	width: 100vw;
+	height: 25vh;
+}
+.fblock{ 
+	margin-top: 5vh;
+	width: 100vw;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+}
+#care{
+	margin-left: 5vw;
+	font-size: 10vh;
+	font-family: sans-serif;
+	color: white;	
+}
+#we{
+	margin-left: 6vw;
+	font-family: sans-serif;
+	color: white;	
+}
+.sblock{
+	margin-top: 50vh;
+	width: 100vw;
+	height: 55vh;
+	background-color: white;
+	box-shadow: 0px 1px 5px 0px #1c2024; 
+	opacity: 0.8;
+	display: flex;
+	flex-direction: column;
+}
+#about{
+	margin-left: 4vw;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+#mem{
+	margin-left: 4vw;
+	font-size: 20px;
+	font-family: sans-serif;
+
+}
+.book{
+	background-color: black;
+	width: 100vw;
+	height: 56vh;
+	opacity: 0.9;
+	margin-top: 30vh;
+	display: flex;
+	flex-direction: column;
+}
+#bookhere{
+	margin-left: 30vw;
+	color:white;
+	font-family: sans-serif;
+}
+.writing{
+	margin-left: 35vw;
+	margin-top: 7.5vh;
+	width: 30vw;
+	height: 3.5vh;
+
+}
+#hello{
+	margin-top: 7.5vh;
+	margin-left: 37.5vw;
+	width: 25vw;
+	background-color: black;
+	font-size: 3vh;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+
+.links{
+	justify-content: center;
+	margin-top: 56vh;
+	width: 100vw;
+	height:25vh;
+	background-color:white;
+	box-shadow: 0px 1px 5px 0px #1c2024;
+	opacity: 0.75;
+}
+#meowtiful{
+	font-family: sans-serif;
+	margin-left: 20vw;
+}
+#meow{
+	margin-left: 16vw;
+	font-size: 20px;
+	font-family: sans-serif;
+}
 }
